@@ -19,7 +19,7 @@ It also supports updating the product price in the database.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Shaharyar-54/shaharyar-tfg-assessment.git
 cd <repo-name>
 npm install
 Create a .env file in the root folder
