@@ -1,22 +1,19 @@
 # 🛒 myStore RESTful Service
 
 ## 📌 Overview
-This project is a RESTful API service that retrieves product details and pricing information from a **MongoDB Atlas** database.  
+This project is a RESTful API service that retrieves product details from an **external API** ([FakeStore API](https://fakestoreapi.com/)) and pricing information from a **MongoDB Atlas** database.  
 It also supports updating the product price in the database.
-
 
 ## 🚀 Features
 - **GET /products/:id** → Fetch product title from FakeStore API & price from MongoDB Atlas.
 - **PUT /products/:id** → Update product price in MongoDB Atlas.
 - Built with **Node.js, Express, MongoDB Atlas, and Axios**.
 
-
 ## 🛠 Tech Stack
 - **Backend Framework:** Node.js + Express
 - **Database:** MongoDB Atlas (Mongoose ORM)
 - **HTTP Client:** Axios
 - **Environment Variables:** dotenv
-
 
 ## ⚙️ Setup Instructions
 
